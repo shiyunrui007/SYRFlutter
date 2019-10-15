@@ -17,3 +17,8 @@
 16. 要在环境变量中配置镜像，否则Flutter在启动过程中一些dependences下载不下来，会被墙。
 17. 多行长文本使用'''  '''来包裹。如果用'  '的话会报错。
 18. 使用Expand来解决放置不下的问题
+19. Flexible widgets must be placed directly inside Flex widgets。出现的情况是在Column中放了两个高度未知的控件 导致高度计算出问题。解决办法：一个给定高度，一个去适应
+20. 使用Wrap流式布局可以搞瀑布流等效果
+21. Flutter中富文本使用RichText来实现同一段文字，不同效果
+22. SnackBar：提示框，会在App下方出现，类似于Toast的感觉。
+23. 
