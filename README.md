@@ -1,4 +1,4 @@
-## 自学Flutter时遇到的坑与解决办法，分享出来，希望能一起成长。
+## 自学Flutter时遇到的坑与解决办法，分享出来，希望能与大家一起成长。
 1. Stack布局中默认是没有宽高的，如果想撑满宽度，需要给left:0和right:0来将控件撑开
 2. 使用NotificationListener可以监听ScrollView的滑动距离 通过scrollNotification.metrics.pixels来拿到
 3. Swiper组件中的itemCount数量不能为0，切记，否则会报错：Failed assertion: line 110 pos 12: '_positions.isNotEmpty'
